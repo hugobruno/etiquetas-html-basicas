@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formularios</title>
+
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <!--action se refiere a la acción que se realizará-->
+    <!--method se refiere al método HTTP usado para enviar los datos. GET es el metodo por defecto-->
+    <form method=POST>
+        <p>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" />
+        </p>
+        <p>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="contraseña" />
+        </p>
+        <p>
+            <label for="">Publicación</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="">Color favorito</label>
+            <select name="color">
+                <option value="1">Rojo</option>
+                <option value="2">Verde</option>
+                <option value="3">Azul</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Selecciona tu rango de edad</label>
+        </p>
+        <p>
+            <label for="">De 18 a 22</label>
+            <input type="radio" name="edad" id="">
+        </p>
+        <p>
+
+            <label for="">De 23 a 28</label>
+            <input type="radio" name="edad" id="">
+        </p>
+        <p>
+            <label for="">De 28 a 50</label>
+            <input type="radio" name="edad" id="">
+        </p>
+        </p>
+        <!--input type ="submit" value="Guardar datos"(METODO ANTIGUO)-->
+        <button type="submit">Guardar datos</button>
+    </form>
+</body>
+
+</html>
